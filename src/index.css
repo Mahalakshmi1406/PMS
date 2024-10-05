@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-gray-100;
+}
+
+.fullscreen-bg {
+  background-image: url('./assets/background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+.page-content {
+  padding: 10px; 
+}
+
+
